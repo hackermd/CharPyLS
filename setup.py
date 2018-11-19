@@ -50,5 +50,6 @@ setup(name='CharPyLS',
       license='MIT',
       author='Pierre V. Villeneuve',
       author_email='pierre.villeneuve@gmail.com',
+      setup_requires=['numpy', 'cython'],
       description='JPEG-LS for Python via CharLS C++ Library',
-      url='https://github.com/Who8MyLunch/CharPyLS')
+      url='https://github.com/hackermd/CharPyLS')
